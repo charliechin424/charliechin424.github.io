@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>{{ page.title }} | {{ site.title }}</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+  <!-- CSS -->
+  <link rel="stylesheet" href="{{ "/assets/css/style.css" | relative_url }}">
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+</head>
+<body>
+
+  <!-- 頂部導航欄 -->
+  <nav class="top-nav">
+    <div class="nav-left">
+      <div class="nav-name">{{ site.title }}</div>
+    </div>
+    <div class="nav-right">
+      <a href="#experience">Experience</a>
+      <a href="#awards">Awards</a>
+      <a href="#beyond">Beyond</a>
+    </div>
+  </nav>
+
+  <div class="container">
+    <!-- 左邊 Sidebar -->
+    <aside class="sidebar">
+      <div class="profile-container">
+        <img src="{{ site.baseurl }}/assets/img/profile.png" alt="Profile photo" class="profile-pic">
+
+        <p class="subtitle">{{ site.description }}</p>
+
+        <div class="contact">
+            <p><i class="fa-solid fa-building"></i> {{ site.author.employer }}</p>
+            <p><i class="fa-solid fa-location-dot"></i> {{ site.author.location }}</p>
+            <p><i class="fa-solid fa-envelope"></i> <a href="mailto:{{ site.author.email }}">{{ site.author.email }}</a></p>
+            <p><i class="fa-brands fa-github"></i> <a href="https://github.com/{{ site.author.github }}">GitHub</a></p>
+            <p><i class="fa-brands fa-linkedin"></i> <a href="{{ site.author.linkedin }}">LinkedIn</a></p>
+        </div>
+      </div>
+    </aside>
+
+    <!-- 右邊 Main Content -->
+    <main class="content">
+      {{ content }}
+    </main>
+  </div>
+
+  <!-- 底部區域 -->
+  <footer class="footer">
+    <div class="footer-container">
+      <div class="last-update">
+        Last updated: {{ site.time | date: "%B %d, %Y" }}
+      </div>
+        
+      <div class="copyright">
+       © {{ 'now' | date: "%Y" }} Chia-Yi (Charlie). Powered by 
+        <a href="https://jekyllrb.com/" style="color: inherit; text-decoration: none;" onmouseover="this.style.textDecoration='underline';" onmouseout="this.style.textDecoration='none';">Jekyll</a> & 
+        <a href="https://mademistakes.com/work/minimal-mistakes-jekyll-theme/" style="color: inherit; text-decoration: none;" onmouseover="this.style.textDecoration='underline';" onmouseout="this.style.textDecoration='none';">Minimal Mistakes</a>.
+      </div>
+    </div>
+  </footer>
+
+</body>
+</html>
