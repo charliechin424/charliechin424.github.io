@@ -7,7 +7,6 @@
     
   <!-- CSS -->
   <link rel="stylesheet" href="{{ "/assets/css/style.css" | relative_url }}">
-
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
 </head>
 <body>
@@ -18,32 +17,15 @@
       <div class="nav-name">{{ site.title }}</div>
     </div>
     <div class="nav-right">
-      <a href="#experience">Experience</a>
-      <a href="#awards">Awards</a>
-      <a href="#beyond">Beyond</a>
+      <a href="{{ '/' | relative_url }}" {% if page.url == '/' %}class="active"{% endif %}>Home</a>
+      <a href="{{ '/experience/' | relative_url }}" {% if page.url == '/experience/' %}class="active"{% endif %}>Experience</a>
+      <a href="{{ '/awards/' | relative_url }}" {% if page.url == '/awards/' %}class="active"{% endif %}>Awards</a>
+      <a href="{{ '/beyond/' | relative_url }}" {% if page.url == '/beyond/' %}class="active"{% endif %}>Beyond</a>
     </div>
   </nav>
 
-  <div class="container">
-    <!-- 左邊 Sidebar -->
-    <aside class="sidebar">
-      <div class="profile-container">
-        <img src="{{ site.baseurl }}/assets/img/profile.png" alt="Profile photo" class="profile-pic">
-
-        <p class="subtitle">{{ site.description }}</p>
-
-        <div class="contact">
-            <p><i class="fa-solid fa-building"></i> {{ site.author.employer }}</p>
-            <p><i class="fa-solid fa-location-dot"></i> {{ site.author.location }}</p>
-            <p><i class="fa-solid fa-envelope"></i> <a href="mailto:{{ site.author.email }}">{{ site.author.email }}</a></p>
-            <p><i class="fa-brands fa-github"></i> <a href="https://github.com/{{ site.author.github }}">GitHub</a></p>
-            <p><i class="fa-brands fa-linkedin"></i> <a href="{{ site.author.linkedin }}">LinkedIn</a></p>
-        </div>
-      </div>
-    </aside>
-
-    <!-- 右邊 Main Content -->
-    <main class="content">
+  <div>
+    <main>
       {{ content }}
     </main>
   </div>

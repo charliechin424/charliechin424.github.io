@@ -190,6 +190,32 @@ body {
 }
 
 /* 聯絡資訊 */
+.sidebar-contact-info {
+  list-style: none;
+  padding: 0;
+}
+
+.sidebar-contact-info li {
+  margin-bottom: 0.8rem;
+  font-size: 0.9rem;
+  color: #666;
+}
+
+.sidebar-contact-info i {
+  width: 20px;
+  margin-right: 0.5rem;
+  color: #666;
+}
+
+.sidebar-contact-info a {
+  color: #666;
+  text-decoration: none;
+}
+
+.sidebar-contact-info a:hover {
+  text-decoration: underline;
+}
+
 .contact p {
   margin: 5px 0;
   white-space: nowrap;   /* 防止聯絡資訊跨行 */
@@ -197,7 +223,7 @@ body {
   text-overflow: ellipsis; /* 超出時顯示省略號 */
 }
 .contact p a {
-  color: #007acc;
+  color: #666;
   text-decoration: none;
 }
 .contact p a:hover {
@@ -205,15 +231,21 @@ body {
 }
 
 /* 右邊內容區 */
-.content {
-  flex: 1;
-  padding-left: 30px;    /* 增加左邊距從 20px 到 30px */
-}
+/* .content {
+  flex: 1; 
+  padding-left: 30px;
+} */
 
 .content h2 {
   margin-top: 10px;      /* 減少上方間距讓 About Me 往上移 */
   border-bottom: 2px solid #eee;
   padding-bottom: 5px;
+}
+
+.project-item {
+  font-family: "Segoe UI", Roboto, Helvetica, Arial, sans-serif; /* 換成你想要的字體 */
+  font-size: 16px; /* 調整字體大小 */
+  line-height: 1.5; /* 讓排版更舒適 */
 }
 
 /* 手機排版 (RWD) */
