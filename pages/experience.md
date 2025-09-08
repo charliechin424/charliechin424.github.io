@@ -181,7 +181,7 @@ ul {
 
 /* Teaching Experience specific styles */
 .course-title {
-  color: #000306f4;
+  color: #000102fb;
   font-weight: 600;
   font-size: 1.1rem;
   margin-bottom: 0.3rem;
@@ -246,85 +246,93 @@ ul {
   <!-- Main Content -->
   <main class="experience-content">
     <div class="experience-content-header">
-      <h2><i class="fa-solid fa-briefcase"></i> Research & Teaching Experience</h2>
+      <h2><i class="fa-solid fa-briefcase"></i> Research & Teaching & Working Experience</h2>
     </div>
 
-    <nav class="experience-section-nav">
+    <!-- <nav class="experience-section-nav">
       <ul>
         <li><a href="#research" class="nav-link active" data-target="research">Research Experience</a></li>
         <li><a href="#teaching" class="nav-link" data-target="teaching">Teaching Experience</a></li>
+        <li><a href="#working" class="nav-link" data-target="working">Working Experience</a></li>
       </ul>
-    </nav>
+    </nav> -->
 
     <!-- Research Experience Section -->
-    <section id="research" class="experience-section active">
-      <h3 class="experience-section-title">Research Experience</h3>
+    <h3 class="experience-section-title">Research Experience</h3>
 
-      <ul>
-          <li>
-              <div class="experience-item">
-                  <div class="experience-header">
-                      <h4 class="position-title">Elsa Lab @ National Taiwan University</h4>
-                      <p class="company-info">Undergraduate Researcher (Advisor: Prof. Chun-Yi Lee)</p>
-                      <p class="duration">(Feb. 2025 – Present)</p>
-                  </div>
-                  <div class="experience-description">
-                      <ul>
-                          <li class="project-item"><strong>Project</strong>: Distributed Inference of LLM on Heterogeneous CPU/GPU Clusters</li>
-                      </ul>
-                  </div>
-              </div>
-          </li>
+    <ul>
+        <li>
+            <div class="experience-item">
+                <div class="experience-header">
+                    <h4 class="position-title">Elsa Lab @ National Taiwan University</h4>
+                    <p class="company-info">Undergraduate Researcher (Advisor: Prof. Chun-Yi Lee)</p>
+                    <p class="duration">(Feb. 2025 – Present)</p>
+                </div>
+                <div class="experience-description">
+                    <ul>
+                        <li class="project-item"><strong>Project</strong>: Distributed Inference of LLM on Heterogeneous CPU/GPU Clusters</li>
+                    </ul>
+                </div>
+            </div>
+        </li>
 
-          <li>
-              <div class="experience-item">
-                  <div class="experience-header">
-                      <h4 class="position-title">Digital Circuits and Systems Lab (DCS Lab) @ National Taiwan University</h4>
-                      <p class="company-info">Project Research Scholarship Recipients (Advisor: Prof. Chia-Hsiang Yang)</p>
-                      <p class="duration">(Jan. 2024 – Jun. 2025)</p>
-                  </div>
-                  <div class="experience-description">
-                      <ul>
-                          <li class="project-item"><strong>Project of National Science and Technology Council (NSTC)</strong>: Design and implementation of a generative AI processor system integrated with High-Bandwidth-Memory architecture</li>
-                      </ul>
-                  </div>
-              </div>
-          </li>
+        <li>
+            <div class="experience-item">
+                <div class="experience-header">
+                    <h4 class="position-title">Digital Circuits and Systems Lab (DCS Lab) @ National Taiwan University</h4>
+                    <p class="company-info">Research Scholarship Recipients (Advisor: Prof. Chia-Hsiang Yang)</p>
+                    <p class="duration">(Jan. 2024 – Jun. 2025)</p>
+                </div>
+                <div class="experience-description">
+                    <ul>
+                        <li class="project-item"><strong>Project of National Science and Technology Council (NSTC)</strong>: Design and implementation of a generative AI processor system integrated with High-Bandwidth-Memory architecture</li>
+                    </ul>
+                </div>
+            </div>
+        </li>
 
-          <li>
-              <div class="experience-item">
-                  <div class="experience-header">
-                      <h4 class="position-title">Digital Image and Signal Processing Lab (DISP Lab) @ National Taiwan University</h4>
-                      <p class="company-info">Undergraduate Researcher (Advisor: Prof. Jian-Jiun Ding)</p>
-                      <p class="duration">(Mar. 2024 – Dec. 2024)</p>
-                  </div>
-                  <div class="experience-description">
-                      <ul>
-                          <li class="project-item"><strong>Project</strong>: Time-Frequency Analysis of Music Signal with Color Noise</li>
-                      </ul>
-                  </div>
-              </div>
-          </li>
-      </ul>
+        <li>
+            <div class="experience-item">
+                <div class="experience-header">
+                    <h4 class="position-title">Digital Image and Signal Processing Lab (DISP Lab) @ National Taiwan University</h4>
+                    <p class="company-info">Undergraduate Researcher (Advisor: Prof. Jian-Jiun Ding)</p>
+                    <p class="duration">(Mar. 2024 – Dec. 2024)</p>
+                </div>
+                <div class="experience-description">
+                    <ul>
+                        <li class="project-item"><strong>Project</strong>: Time-Frequency Analysis of Music Signal with Color Noise</li>
+                    </ul>
+                </div>
+            </div>
+        </li>
+    </ul>
 
-    </section>
+    <!-- Working Experience Section
+    <h3 class="experience-section-title">Working Experience</h3>
+
+    <ul>
+        <li>
+            <div class="experience-item">
+                <div class="experience-header">
+                    <h4 class="position-title">Academia Sinica Research Center</h4>
+                    <p class="company-info">Research Scholarship Recipients in Information Technology Innovation Research Center (Mentor: Dr. Hsiang-Yun Cheng)</p>
+                    <p class="duration">(Sep. 2025 – Present)</p>
+                </div>
+                <div class="experience-description">
+                    <ul>
+                        <li class="project-item"><strong>Project of National Science and Technology Council (NSTC)</strong>: Transcending Intelligence with Transformer Acceleration using Near-Storage and In-Memory Chiplet-based Computing</li>
+                    </ul>
+                </div>
+            </div>
+        </li>
+    </ul> -->
 
     <!-- Teaching Experience Section -->
-    <section id="teaching" class="experience-section">
-      <h3 class="experience-section-title">Teaching Experience</h3>
+    <h3 class="experience-section-title">Teaching Experience (Teaching Assistant)</h3>
+    <ul>
+      <li class="course-title">CSIE5213 Parallel Programming (Fall 2025), National Taiwan University</li>
+    </ul>
 
-      <div class="experience-item">
-        <div class="experience-header">
-          <h4 class="position-title">Teaching Assistant <p class="duration">(Sep. 2025 – Present)</p></h4>
-        </div>
-        <div class="experience-description">
-          <ul>
-            <li class="course-title">CSIE5213 Parallel Programming (Fall 2025), National Taiwan University</li>
-          </ul>
-        </div>
-      </div>
-
-    </section>
   </main>
 </div>
 

@@ -133,8 +133,10 @@ permalink: /beyond/
 .experience-section-title {
   font-size: 1.8rem;
   font-weight: 600;
+  font-style: italic;
   margin-bottom: 2rem;
-  color: #2c3e50;
+  text-align: center;
+  color: #888;
 }
 
 .experience-header {
@@ -243,10 +245,13 @@ ul {
     </aside>
     <!-- Main Content -->
     <main class="experience-content">
-        <div class="experience-content-header">
-            <h2><i class="fa-solid fa-briefcase"></i> Hobbies & Interests</h2>
-        </div>
-    </main>
+    <div class="experience-content-header">
+        <h2><i class="fa-solid fa-briefcase"></i> Hobbies & Interests</h2>
+    </div>
+    <div class="experience-section active">
+        <h3 class="experience-section-title">🚧 To be updated...</h3>
+    </div>
+</main>
 </div>
 
 <script>

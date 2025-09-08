@@ -1,0 +1,4 @@
+# To run the website locally: 
+```bash
+bundle exec jekyll serve
+```

@@ -168,6 +168,7 @@ permalink: /awards/
 ul {
     padding-left: 20px; /* 保持縮排 */
     margin: 0; /* 拿掉不必要的上下外距 */
+    font-size: 1.2rem;
 }
 
 .experience-description ul {
@@ -246,6 +247,17 @@ ul {
         <div class="experience-content-header">
             <h2><i class="fa-solid fa-briefcase"></i> Honors & Awards</h2>
         </div>
+
+        <!-- Undergraduate -->
+        <h3 class="experience-section-title">🎓Undergraduate</h3>
+
+        <ul style="margin-left: 20px;">
+            <li><strong>First Prize and Group Competition Award, Supercomputer Challenge Final Competition (ASC25)</strong> (2025)</li>
+            <li><strong>Achieved 1st rank in NTUEE during the Fall 2024 semester</strong> (2024)</li>
+            <li><strong>Dean’s List during Senior Fall Semester in NTUEE</strong> (2024)</li>
+            <li><strong>Dean’s List during Freshman Fall Semester in NTUME</strong> (2021)</li>
+        </ul>
+
     </main>
 </div>
 
