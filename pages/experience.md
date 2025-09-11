@@ -259,7 +259,6 @@ ul {
 
     <!-- Research Experience Section -->
     <h3 class="experience-section-title">Research Experience</h3>
-
     <ul>
         <li>
             <div class="experience-item">
@@ -275,7 +274,6 @@ ul {
                 </div>
             </div>
         </li>
-
         <li>
             <div class="experience-item">
                 <div class="experience-header">
@@ -290,7 +288,6 @@ ul {
                 </div>
             </div>
         </li>
-
         <li>
             <div class="experience-item">
                 <div class="experience-header">
@@ -307,9 +304,14 @@ ul {
         </li>
     </ul>
 
-    <!-- Working Experience Section
-    <h3 class="experience-section-title">Working Experience</h3>
+    <!-- Teaching Experience Section -->
+    <h3 class="experience-section-title">Teaching Experience (Teaching Assistant)</h3>
+    <ul>
+      <li class="course-title">CSIE5213 Parallel Programming (Fall 2025), National Taiwan University</li>
+    </ul>
 
+    <!-- Working Experience Section -->
+    <h3 class="experience-section-title">Working Experience</h3>
     <ul>
         <li>
             <div class="experience-item">
@@ -325,12 +327,6 @@ ul {
                 </div>
             </div>
         </li>
-    </ul> -->
-
-    <!-- Teaching Experience Section -->
-    <h3 class="experience-section-title">Teaching Experience (Teaching Assistant)</h3>
-    <ul>
-      <li class="course-title">CSIE5213 Parallel Programming (Fall 2025), National Taiwan University</li>
     </ul>
 
   </main>
